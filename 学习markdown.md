@@ -41,8 +41,8 @@ ___又斜又粗2___
 <u>学html，加尖括号+u</u>
 
 创建脚注[^tips]  
-脚注2[^2]
-
+[^tips]:  that is tips 1！  
+实际上GitHub不支持脚注，所以该功能无法实现
 
 
 
@@ -113,5 +113,15 @@ ___又斜又粗2___
 
 或者更直接点<http://www.baidu.com>
 
-[^tips]:that is tips 1！ 
-[^2]: tips 2!
+给链接用 1 作为变量[Baidu][1]  
+[1]:http://www.baidu.com  
+很明显，类似于脚注一样，功能无法使用
+
+
+图片功能：  
+![导入图片](https://pic2.zhimg.com/v2-b695d08b47bfbb079e2bb598a42a951a_1200x500.jpg)
+
+![导入图片](https://pic2.zhimg.com/v2-b695d08b47bfbb079e2bb598a42a951a_1200x500.jpg "并不清楚这里的作用")
+
+用`<img>`标签来修改大小  
+<img src="https://pic2.zhimg.com/v2-b695d08b47bfbb079e2bb598a42a951a_1200x500.jpg" width="50%">
